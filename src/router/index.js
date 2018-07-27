@@ -15,6 +15,7 @@ const Routers = () => (
   <Router>
     <div className="container">
     <ScrollToTop>
+      <Route path="/" component={Search}/>
       <Route path="/search" component={Search}/>
       <Route path="/search-result" component={searchResult}/>
     </ScrollToTop>
