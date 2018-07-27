@@ -14,13 +14,13 @@ const options = {
   headers
 };
 
-const searchTicketRequest = () => {
+export const searchTicketRequest = () => {
   return {
     type: types.GET_All_SEARCH_TICKET_REQUEST
   };
 }
 
-const searchTicketReceive = (json) => {
+export const searchTicketReceive = (json) => {
   return {
     type: types.GET_All_SEARCH_TICKET_RECEIVE,
     gets: json,

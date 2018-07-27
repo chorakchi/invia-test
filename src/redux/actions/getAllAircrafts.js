@@ -14,13 +14,13 @@ const options = {
   headers
 };
 
-const getAllAircraftsRequest = () => {
+export const getAllAircraftsRequest = () => {
   return {
     type: types.GET_All_AIRCRAFTS_REQUEST
   };
 }
 
-const getAllAircraftsReceive = (json) => {
+export const getAllAircraftsReceive = (json) => {
   return {
     type: types.GET_All_AIRCRAFTS_RECEIVE,
     gets: json,

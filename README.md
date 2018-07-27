@@ -11,6 +11,7 @@ yarn install
 ```
 yarn server-start
 yarn start
+yarn test
 ```
 open http://localhost:3000  for access  to client-side App
 

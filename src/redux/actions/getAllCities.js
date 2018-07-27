@@ -14,13 +14,13 @@ const options = {
   headers
 };
 
-const getAllCitiesRequest = () => {
+export const getAllCitiesRequest = () => {
   return {
     type: types.GET_All_CITIES_REQUEST
   };
 }
 
-const getAllCitiesReceive = (json) => {
+export const getAllCitiesReceive = (json) => {
   return {
     type: types.GET_All_CITIES_RECEIVE,
     gets: json,
