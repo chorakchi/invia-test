@@ -16,7 +16,7 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "luxon": "^1.2.0",
     "material-ui-pickers": "^1.0.0-rc.9",
-    "moment": "^2.22.1",
+    "moment": "^2.29.4",
     "react-autosuggest": "^9.3.4",
     "react-compose": "^2.0.0",
     "react-redux": "^5.0.7",
